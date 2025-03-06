@@ -49,7 +49,6 @@ jobs:
         mv ./build/static ./build/standalone/build
         mv ./public ./build/standalone
 
-  deploy:
     - name: 'Deploy to Azure WebApp'
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v4
